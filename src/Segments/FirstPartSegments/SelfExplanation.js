@@ -15,7 +15,7 @@ function ImagesFunc() {
                 </div>
                 <div className="overlay-right">
                     <img
-                        src="/whitelogo.png"
+                        src="whitelogo.png"
                         alt="Gallery Preview"
                         className="overlay-image"
                         style={{width: "500px", height: "auto"}}
@@ -28,12 +28,12 @@ function ImagesFunc() {
             <ImageTrail
                 key={0}
                 items={[
-                    '/Images/grind1.jpg',
-                    '/Images/grind2.jpg',
-                    '/Images/grind3.jpg',
-                    '/Images/grind4.jpeg',
-                    '/Images/grind5.jpg',
-                    '/Images/grind6.jpg',
+                    'Images/grind1.jpg',
+                    'Images/grind2.jpg',
+                    'Images/grind3.jpg',
+                    'Images/grind4.jpeg',
+                    'Images/grind5.jpg',
+                    'Images/grind6.jpg',
                 ]}
                 variant={7}
             />
