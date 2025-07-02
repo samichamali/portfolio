@@ -1,0 +1,13 @@
+.companieslist {
+    height: 600px;
+    position: relative;
+
+    /* Added styles */
+    color: white; /* Base color, works best with difference mode */
+    font-family: Inter, serif;  /* Font style */
+    font-size:16px;           /* Base font size */
+
+    /* Strong text shadow */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+
+}

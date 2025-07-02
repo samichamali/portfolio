@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;       /* horizontal centering */
+    align-items: center;           /* vertical centering */
+    height: 100vh;                 /* full viewport height */
+    width: 98vw;                  /* full viewport width */
+    color: white;
+    font-size: 10vw;               /* responsive font size */
+    font-family: 'Iceland', serif;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+
+/* Optional fine-tuning for small screens */
+@media (max-width: 480px) {
+    .center-container {
+        font-size: 20vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .center-container {
+        font-size: 8vw;
+    }
+}
